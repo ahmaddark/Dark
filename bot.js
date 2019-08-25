@@ -6,7 +6,7 @@ const math = require('math-expression-evaluator');   //WESO#0001
 const figlet = require('figlet');   //WESO#0001
 const fs = require('fs');  //WESO#0001
 const ms = require('ms');  //WESO#0001
-const prefix = '-'
+const prefix = '$'
 
 client.on('message', msg => {  //WESO#0001
     if (msg.content === 'باك') {  //WESO#0001
@@ -15,30 +15,30 @@ client.on('message', msg => {  //WESO#0001
   });
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'ويسو') {  //WESO#0001
-      msg.reply('**ويسو مات**');  //WESO#0001
+    if (msg.content === 'هلا') {  //WESO#0001
+      msg.reply('**اهلين**');  //WESO#0001
     }
   });
 
 
 client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**لاتحتك يا اخوي لو سمحت**');  //WESO#0001
+    if (msg.content === 'Brb') {  //WESO#0001
+      msg.reply('**Tyt**');  //WESO#0001
     }
   });
   
 
   client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'احبك') {  //WESO#0001
-      msg.reply('**حبك برص يا سافل**');  //WESO#0001
+    if (msg.content === 'سلام عليكم') {  //WESO#0001
+      msg.reply('**وعليكم السلام**');  //WESO#0001
     }
   });
 
 
   
    client.on('message', msg => {  //WESO#0001
-    if (msg.content === 'هلا') {  //WESO#0001
-      msg.reply('**هلا بيك :heart: **');  //WESO#0001
+    if (msg.content === 'Back') {  //WESO#0001
+      msg.reply('**Welcome :heart: **');  //WESO#0001
     }
   });
 
@@ -117,7 +117,7 @@ client.on('message',async message => {  //WESO#0001
     };
  
   }
-  if(message.content.startsWith(prefix + "clan")) {  //WESO#0001
+  if(message.content.startsWith(prefix $ "clan")) {  //WESO#0001
     if(message.content.split(' ')[0] !== `${prefix}clan`) return;  //WESO#0001
  
     if(!args[1] || args[1] && args[1] === 'info') {  //WESO#0001
